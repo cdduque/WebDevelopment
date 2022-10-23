@@ -1,28 +1,44 @@
 body {
-  background-color: #e6e6fa;
+  background-color: #f4ffe4;
+  background-image: url(../images/trilliumgradient.png);
+  background: url(../images/trilliumfoot.gif) no-repeat bottom right,
+    url(../images/trilliumgradient.png);
   color: #191970;
   font-family: Arial, Verdana, sans-serif;
+  min-width: 700px;
 }
 
 footer {
+  /*border-top: thin solid #aeaed4;*/
   color: #333333;
   font-size: 0.75em;
   font-style: italic;
+  padding-top: 10px;
 }
 
 h1 {
   background-color: #191970;
   color: #e6e6fa;
-  line-height: 200%;
   font-family: Georgia, "Times New Roman", Times, serif;
+  height: 86px;
+  line-height: 200%;
+  padding: 15px;
   text-shadow: 3px 3px 5px #cccccc;
 }
 
 h2 {
-  background-color: #aeaed4;
-  color: #191970;
+  background-color: #d5edb3;
+  background-image: url(../images/trilliumbullet.gif);
+  background-repeat: no-repeat;
+  /*border-bottom: 2px dashed #191970;*/
+  color: #5c743d;
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
+  padding-left: 30px;
+  /*text-align: center;*/
+}
+
+img {
+  border-style: none;
 }
 
 p {
@@ -37,7 +53,7 @@ li {
 
 nav {
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 0.75em;
 }
 
 ul {
