@@ -1,0 +1,36 @@
+body {
+  background-color: #8fa5ce;
+  background-image: -webkit-linear-gradient(#ffffff, #8fa5ce);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffffff, 
+  endColorstr=#ff8fa5ce);
+  background-image: linear-gradient(to bottom, #ffffff, #8fa5ce);
+}
+
+h1 {
+  background-image: url(../images/lighthouselogo.jpg);
+  background-repeat: no-repeat;
+  border: 1px solid #000033;
+  border-radius: 15px;
+  font-size: 3em;
+  height: 100px;
+  width: 650px;
+
+  padding-left: 150px;
+  padding-top: 30px;
+  text-shadow: 3px 3px 3px #666;
+}
+
+h2 {
+  text-shadow: 1px 1px 0 #ccc;
+}
+#container {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #1e1e1e;
+  padding: 20px;
+
+  max-width: 960px;
+  min-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
