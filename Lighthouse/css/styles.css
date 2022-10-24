@@ -1,36 +1,105 @@
 body {
-  background-color: #8fa5ce;
-  background-image: -webkit-linear-gradient(#ffffff, #8fa5ce);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffffff, 
+  background-color: #00005d;
+  /* background-image: -webkit-linear-gradient(#ffffff, #8fa5ce); */
+  font-family: Verdana, Arial, sans-serif;
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffffff, 
   endColorstr=#ff8fa5ce);
-  background-image: linear-gradient(to bottom, #ffffff, #8fa5ce);
+  background-image: linear-gradient(to bottom, #ffffff, #8fa5ce); */
+}
+
+footer {
+  clear: both;
+  background-color: #869dc7;
+  font-size: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+header {
+  background-color: #869dc7;
+  background-image: url(../images/lighthouselogo.jpg);
+  background-repeat: no-repeat;
+  color: #00005d;
+  font-size: 150%;
+  padding: 10px 10px 10px 155px;
 }
 
 h1 {
-  background-image: url(../images/lighthouselogo.jpg);
+  /* background-image: url(../images/lighthouselogo.jpg);
   background-repeat: no-repeat;
   border: 1px solid #000033;
-  border-radius: 15px;
-  font-size: 3em;
+  border-radius: 15px; */
+  /* font-size: 3em;
   height: 100px;
   width: 650px;
-
   padding-left: 150px;
   padding-top: 30px;
-  text-shadow: 3px 3px 3px #666;
+  text-shadow: 3px 3px 3px #666; */
+  margin-bottom: 20px;
 }
 
 h2 {
-  text-shadow: 1px 1px 0 #ccc;
+  color: #869dc7;
+  font-family: Arial, sans-serif;
+  /* text-shadow: 1px 1px 0 #ccc; */
 }
-#container {
-  background-color: #ffffff;
-  box-shadow: 5px 5px 5px #1e1e1e;
-  padding: 20px;
 
-  max-width: 960px;
-  min-width: 800px;
-  margin-right: auto;
-  margin-left: auto;
+main {
+  background-color: #ffffff;
+  color: #000000;
+  display: block;
+  padding: 10px 20px;
+  overflow: auto;
+}
+
+nav {
+  float: right;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  width: 200px;
+}
+
+nav a {
+  background-color: #b3c7e6;
+  border-bottom: 1px solid #ffffff;
+  display: block;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav a:link {
+  color: #ffffff;
+}
+
+nav a:hover {
+  color: #000066;
+}
+
+nav a:visited {
+  color: #eaeaea;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-color: #b3c7e6;
+  color: #000066;
+  margin: auto;
+  min-width: 960px;
+  max-width: 1200px;
   width: 80%;
 }
+
+#floatright {
+  float: right;
+  margin: 10px;
+}
+/* #rightcol {
+  margin-left: 155px;
+  background-color: #ffffff;
+} */
