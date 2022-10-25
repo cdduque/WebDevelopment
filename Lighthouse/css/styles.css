@@ -1,3 +1,26 @@
+header,
+main,
+nav,
+footer,
+section,
+article,
+figure,
+figcaption,
+aside {
+  display: block;
+}
+
+aside {
+  background-color: lightgray;
+  box-shadow: 5px 5px;
+  float: right;
+  font-size: 80%;
+  margin-right: 40px;
+  padding: 20px;
+  position: relative;
+  top: -40px;
+  width: 200px;
+}
 body {
   background-color: #00005d;
   /* background-image: -webkit-linear-gradient(#ffffff, #8fa5ce); */
@@ -125,4 +148,12 @@ nav ul {
   text-align: right;
   font-size: 0.8em;
   font-style: italic;
+}
+
+article > header {
+  background-color: #ffffff;
+  background-image: none;
+  font-size: 90%;
+  height: auto;
+  padding-left: 0;
 }
