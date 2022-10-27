@@ -1,5 +1,6 @@
 body {
   background-color: #ffffcc;
+  background-image: url(../images/background.gif);
   color: #330000;
   font-family: Verdana, Arial, sans-serif;
 }
@@ -10,6 +11,7 @@ footer {
   font-size: 0.6em;
   font-style: italic;
   text-align: center;
+  padding: 10px;
 }
 
 header {
@@ -18,8 +20,15 @@ header {
   text-align: center;
 }
 
-h1 {
-  line-height: 200%;
+h2 {
+  background-color: #ccaa66;
+  font-size: 1.2em;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+main {
+  padding: 25px;
 }
 
 nav {
@@ -27,7 +36,16 @@ nav {
 }
 
 #bodyWrap {
+  background-color: #ffffcc;
   margin-left: auto;
   margin-right: auto;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 3px 3px 3px;
   width: 80%;
+}
+
+.details {
+  padding-left: 20%;
+  padding-right: 20%;
 }
