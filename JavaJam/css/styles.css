@@ -1,3 +1,10 @@
+header,
+nav,
+main,
+footer {
+  display: block;
+}
+
 body {
   background-color: #ffffcc;
   background-image: url(../images/background.gif);
@@ -7,32 +14,90 @@ body {
 
 footer {
   background-color: #ccaa66;
+  clear: float;
   color: #000000;
   font-size: 0.6em;
   font-style: italic;
+  padding-bottom: 20px;
+  padding-top: 20px;
   text-align: center;
-  padding: 10px;
 }
 
 header {
+  background-image: url(../images/javalogo.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
   background-color: #ccaa66;
   color: #000000;
-  text-align: center;
+  /* text-align: center; */
+}
+
+h1 {
+  margin: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 h2 {
-  background-color: #ccaa66;
+  background-color: #ffffcc;
+  border-bottom: 1px solid #000000;
+  clear: left;
+  color: #663300;
   font-size: 1.2em;
-  padding-left: 10px;
-  padding-bottom: 5px;
+  margin-right: 20px;
+  padding: 5px 0 0 5px;
+  text-transform: uppercase;
 }
 
 main {
-  padding: 25px;
+  background-color: #f2eab7;
+  color: #000000;
+  margin-left: 150px;
+  overflow: auto;
+  padding: 10px 20px 30px 20px;
 }
 
 nav {
+  float: left;
   text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  width: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+nav a:link {
+  color: #996633;
+}
+
+nav a:hover {
+  color: #330000;
+}
+
+nav a:visited {
+  color: #ccaa66;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+footer a:link {
+  color: #ffffcc;
+}
+
+footer a:hover {
+  color: #330000;
+}
+
+footer a:visited {
+  color: #f2eab7;
 }
 
 #bodyWrap {
@@ -46,6 +111,20 @@ nav {
 }
 
 .details {
+  overflow: auto;
   padding-left: 20%;
   padding-right: 20%;
+}
+
+.floatleft {
+  border-style: none;
+  float: left;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  width: auto;
+  height: 75px;
+}
+.floatright {
+  float: right;
+  padding-left: 20px;
 }
