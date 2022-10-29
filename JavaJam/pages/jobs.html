@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaJam Coffee House - Jobs</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <div id="bodyWrap">
+    <body>
+      <header>
+        <h1>JavaJam Coffee House</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/menu.html">Menu</a></li>
+          <li><a href="../pages/music.html">Music</a></li>
+          <li><a href="../pages/jobs.html">Jobs</a></li>
+        </ul>
+      </nav>
+      <main>
+        <p>
+          Want to work at JavaJam? Fill out the form below to start your
+          application.<br />
+          Required fields are marked with an asterisk (*).
+        </p>
+        <form method="post" action="http:webdevbasics.net/scripts/javajam.php">
+          <label for="name">* Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required="required"
+            placeholder="your first and last name"
+          />
+          <label for="email">* E-mail:</label>
+          <input
+            type="email"
+            email="email"
+            id="email"
+            required="required"
+            placeholder="username@domain.com"
+          />
+          <label for="experience">* Experience:</label>
+          <textarea
+            name="experience"
+            id="experience"
+            rows="5"
+            cols="20"
+            required="required"
+            placeholder="tell us about your work experience"
+          ></textarea>
+          <input id="apply" type="submit" value="Apply Now" />
+        </form>
+      </main>
+      <footer>
+        Copyright &copy; 2022 JavaJam Coffee House
+        <br />
+        <a href="mailto:cyndi@duque.com">cyndi@duque.com</a>
+      </footer>
+    </body>
+  </div>
+</html>

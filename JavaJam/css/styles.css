@@ -100,6 +100,19 @@ footer a:visited {
   color: #f2eab7;
 }
 
+input {
+  display: block;
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  float: left;
+  padding-right: 5px;
+  text-align: right;
+  width: 8em;
+}
+
 table {
   background-color: #ffffcc;
   border-spacing: 0;
@@ -107,9 +120,18 @@ table {
   width: 90%;
 }
 
+textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+
 td,
 th {
   padding: 10px;
+}
+
+#apply {
+  margin-left: 12em;
 }
 
 #bodyWrap {
