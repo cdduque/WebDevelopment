@@ -100,6 +100,18 @@ footer a:visited {
   color: #f2eab7;
 }
 
+table {
+  background-color: #ffffcc;
+  border-spacing: 0;
+  margin: auto;
+  width: 90%;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
 #bodyWrap {
   background-color: #ffffcc;
   margin-left: auto;
@@ -135,6 +147,10 @@ footer a:visited {
 .floatright {
   float: right;
   padding-left: 20px;
+}
+
+.oddRow {
+  background-color: #ccaa66;
 }
 
 @media only screen and (max-width: 1024px) {
