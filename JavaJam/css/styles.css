@@ -5,6 +5,11 @@ footer {
   display: block;
 }
 
+audio {
+  display: block;
+  margin-top: 1em;
+}
+
 body {
   background-color: #ffffcc;
   background-image: url(../images/background.gif);
