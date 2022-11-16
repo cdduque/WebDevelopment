@@ -157,6 +157,11 @@ th {
   display: none;
 }
 
+.clearleft {
+  clear: left;
+  margin: 1em;
+}
+
 .details {
   overflow: auto;
   padding-left: 20%;
